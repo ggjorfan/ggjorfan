@@ -1496,8 +1496,8 @@ pre {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px; }
+  padding-left: 25px;
+  padding-right: 25px; }
   .container:before, .container:after {
     content: " ";
     display: table; }
@@ -1516,8 +1516,9 @@ pre {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px; }
+  word-break: break-word;
+
+}
   .container-fluid:before, .container-fluid:after {
     content: " ";
     display: table; }
